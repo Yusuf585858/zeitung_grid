@@ -1,0 +1,144 @@
+@font-face {
+    font-family: cormo;
+    src: url("../fonts/CormorantGaramond-Regular.ttf");
+}
+
+* {
+    margin: 0 18px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(233, 233, 224);
+    font-size: 10px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header div {
+    font-family: cormo;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 8px double black;
+    border-top: 8px double black;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+/* #burning {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+} */
+
+.burvis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burvis h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    padding-right: 0rem;
+}
+
+.burvis h1 {
+    padding-left: 35rem;
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#kitchen {
+    width: 50rem;
+    height: auto;
+}
+
+.shattering {
+    grid-column: 1 /2;
+    grid-row: 1 / 2;
+}
+
+.knife {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.contact {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+}
+
+.death {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.cooking {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.bild {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+}
+
+main {
+    display: flex;
+}
+
+article img {
+    filter: grayscale(100%);
+    width: 25rem;
+    height: auto;
+    border: 8px double black;
+    padding: 2rem;
+}
+
+#your {
+    border: 8px double black;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.knives {
+    border: 8px double black;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.knives h4 {
+    font-size: 2.8rem;
+}
+
+.knives p {
+    font-size: 1.8rem;
+
+}
